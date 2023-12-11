@@ -8,7 +8,7 @@ const About = () => {
         <div className="flex gap-6  pt-28 border-b pb-6">
         <div className="">
                 <div className="border   rounded-full  shadow w-[245px] h-[245px]">
-                    <img className="rounded-full p-4 " src="/public/shorif-banner.png" alt="" />
+                    <img className="rounded-full p-4 " src="https://i.ibb.co/0hq6nY4/shorif-banner.png" alt="" />
                 </div>
                 <div className="flex gap-4 justify-center pt-6">
                     <div className="bg-blue-950 text-white p-3 rounded-full">

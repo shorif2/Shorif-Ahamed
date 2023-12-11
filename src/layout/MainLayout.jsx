@@ -20,7 +20,7 @@ const MainLayout = () => {
                         <NavLink className=" font-sans bg-white text-center py-2 rounded-lg flex px-4 items-center gap-2" ><Chats size={24} />Contact</NavLink>
                        
                     </div>
-                    <p className=" text-white pt-12">© 2023 Abru<br />All Rights Reserved.</p>
+                    <p className=" text-white pt-12">© 2023 Shorif<br />All Rights Reserved.</p>
                 </div>
                 <div className="bg-white rounded-lg w-10/12 overflow-scroll">
                 <Outlet></Outlet>
