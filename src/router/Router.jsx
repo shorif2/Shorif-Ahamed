@@ -3,6 +3,7 @@ import {
   } from "react-router-dom";
 import MainLayout from "../layout/MainLayout";
 import About from "../pages/About/About";
+import Resume from "../pages/Resume/Resume";
 
 
 
@@ -15,6 +16,10 @@ import About from "../pages/About/About";
         {
             path: '/',
             element: <About></About>
+        },
+        {
+            path: '/resume',
+            element: <Resume></Resume>
         }
       ]
     },

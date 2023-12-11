@@ -12,8 +12,8 @@ const MainLayout = () => {
                         <img src="https://themesvila.com/themes-wp/abru/wp-content/themes/abru/assets/img/logo.png" alt="" />
                     </div>
                     <div className="flex pr-12 flex-col  space-y-1.5">
-                        <NavLink className=" font-sans bg-white text-center py-2 rounded-lg flex px-4 items-center gap-2"><HouseLine size={24} /> About</NavLink>
-                        <NavLink className=" font-sans bg-white text-center py-2 rounded-lg flex px-4 items-center gap-2" ><ReadCvLogo size={24} />Resume</NavLink>
+                        <NavLink to='/' className=" font-sans bg-white text-center py-2 rounded-lg flex px-4 items-center gap-2"><HouseLine size={24} /> About</NavLink>
+                        <NavLink to='/resume' className=" font-sans bg-white text-center py-2 rounded-lg flex px-4 items-center gap-2" ><ReadCvLogo size={24} />Resume</NavLink>
                         <NavLink className=" font-sans bg-white text-center py-2 rounded-lg flex px-4 items-center gap-2"><Package size={24} />Service</NavLink>
                         <NavLink className=" font-sans bg-white text-center py-2 rounded-lg flex px-4 items-center gap-2" ><ImageSquare size={24} />Portfolio</NavLink>
                         <NavLink className=" font-sans bg-white text-center py-2 rounded-lg flex px-4 items-center gap-2"><BookOpen  size={24} /> Blog</NavLink>
