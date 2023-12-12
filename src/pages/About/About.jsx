@@ -26,7 +26,7 @@ const About = () => {
             {/* description */}
             <div>
                 <div>
-                    <h3>- I Am Shorif Ahamed</h3>
+                    <h3>- I'm Shorif Ahamed</h3>
                     <h2 className="text-7xl py-8">FREELANCER</h2>
                 </div>
                 <div className="grid grid-cols-2 gap-6 w-full">

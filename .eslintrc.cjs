@@ -1,5 +1,6 @@
 module.exports = {
   root: true,
+  "react/no-unescaped-entities": "off",
   env: { browser: true, node:true, es2020: true },
   extends: [
     'eslint:recommended',
@@ -16,5 +17,6 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    
   },
 }
