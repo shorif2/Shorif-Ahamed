@@ -10,9 +10,9 @@ const Skill = () => {
         <div className="p-10">
             <h2 class="mb-4 text-4xl font-semibold text-center">Skills</h2>
             <hr className="w-12 mx-auto border border-red-300" /> 
-            <p class="mb-5 text-center lead w-96 mx-auto pt-4 pb-8">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <p class="mb-5 text-center md:w-96 mx-auto pt-4 pb-8">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
             <div>
-                <div className="grid grid-cols-4 gap-6 justify-center items-center">
+                <div className="grid grid-cols-2  md:grid-cols-4 gap-6 justify-center items-center">
                 <div className="border text-7xl flex justify-center items-center p-6 hover:shadow-xl">
                 <FaFigma />
                 <p></p>

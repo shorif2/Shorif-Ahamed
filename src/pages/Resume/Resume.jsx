@@ -16,7 +16,7 @@ const Resume = () => {
                             University Of Rajshahi
                         </h3>
 
-                        <h4 className="text-xl font-medium mb-2"><button className="btn btn-outline outline-orange-600 btn-sm mb-2">2016</button> - Bachelor's Degree in Computer Science.</h4>
+                        <h4 className="text-xl font-medium mb-2"><button className="btn btn-outline outline-orange-600 btn-sm mb-2">2023</button> - Master's in Political Science.</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, nihil.</p>
                     </div>
                     <div className="pt-12">
@@ -24,7 +24,7 @@ const Resume = () => {
                             University Of Rajshahi
                         </h3>
 
-                        <h4 className="text-xl font-medium mb-2"><button className="btn btn-outline outline-orange-600 btn-sm mb-2">2016</button> - Bachelor's Degree in Computer Science.</h4>
+                        <h4 className="text-xl font-medium mb-2"><button className="btn btn-outline outline-orange-600 btn-sm mb-2">2016</button> - Bachelor's Degree in Political Science.</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, nihil.</p>
                     </div>
                 </div>
@@ -33,10 +33,10 @@ const Resume = () => {
                     <h3 className="font-medium text-2xl pt-16 border-b-2 pb-4">Experience</h3>
                     <div className="pt-12">
                         <h3 className="text-2xl pb-6">
-                            University Of Rajshahi
+                            Lead Generation
                         </h3>
 
-                        <h4 className="text-xl font-medium mb-2"><button className="btn btn-outline outline-orange-600 btn-sm mb-2">2016</button> - Bachelor's Degree in Computer Science.</h4>
+                        <h4 className="text-xl font-medium mb-2"><button className="btn btn-outline outline-orange-600 btn-sm mb-2">2021</button> - Lead Generation In Upwork.</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, nihil.</p>
                     </div>
 
