@@ -116,7 +116,7 @@ const MainLayout = () => {
               All Rights Reserved.
             </p>
           </div>
-          <div className="bg-white/10 backdrop-blur-md text-white rounded-md w-full md:w-11/12 lg:w-10/12 overflow-scroll">
+          <div className="bg-black/10 backdrop-blur-lg text-white rounded-md w-full md:w-11/12 lg:w-10/12 overflow-auto">
             {/* mobile menu */}
             <div className="block lg:hidden w-full">
               {/* <div className="pb-6">
