@@ -57,7 +57,7 @@ const About = () => {
             </p>
             <div className="pt-10">
               <a
-                href="/Sorifuzzaman.docx.pdf"
+                href="/Resume-shorif.pdf"
                 download
                 className="bg-orange-500 rounded text-white px-8 py-3 font-medium"
               >
