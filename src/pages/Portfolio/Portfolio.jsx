@@ -14,8 +14,8 @@ const Portfolio = () => {
         </div>
         <div className="space-y-6">
           {/* Gift haven */}
-          <div className="flex w-full h-72 border border-white rounded">
-            <div className="w-3/5 p-6 space-y-3">
+          <div className="flex flex-col md:flex-row w-full md:h-72 border border-white rounded">
+            <div className="w-full md:w-3/5 p-6 space-y-3">
               <h3 className="text-xl font-semibold  group-hover:text-gray-600 dark:text-gray-200">
                 Gift Haven
               </h3>
@@ -61,7 +61,7 @@ const Portfolio = () => {
                 </Link>
               </div>
             </div>
-            <div className="w-2/5 ">
+            <div className="w-full md:w-2/5 ">
               <img
                 className="w-full h-full border   object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded"
                 src="/giftHaven.png"
@@ -70,8 +70,8 @@ const Portfolio = () => {
             </div>
           </div>
           {/* ServiSwap */}
-          <div className="flex w-full h-72 border border-white rounded">
-            <div className="w-3/5 p-6 space-y-3">
+          <div className="flex flex-col md:flex-row  w-full md:h-72 border border-white rounded">
+            <div className="w-full md:w-3/5 p-6 space-y-3">
               <h3 className="text-xl font-semibold  group-hover:text-gray-600 dark:text-gray-200">
                 ServiSwap
               </h3>
@@ -115,7 +115,7 @@ const Portfolio = () => {
                 </Link>
               </div>
             </div>
-            <div className="w-2/5 ">
+            <div className="w-full md:w-2/5">
               <img
                 className="h-full border   object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded"
                 src="https://i.ibb.co/hDJxv2g/Service-Provider.png"
@@ -124,8 +124,8 @@ const Portfolio = () => {
             </div>
           </div>
           {/* blood donation */}
-          <div className="flex w-full h-72 border border-white rounded">
-            <div className="w-3/5 p-6 space-y-3">
+          <div className="flex flex-col md:flex-row w-full md:h-72 border border-white rounded">
+            <div className="w-full md:w-3/5 p-6 space-y-3">
               <h3 className="text-xl font-semibold  group-hover:text-gray-600 dark:text-gray-200">
                 One Blood
               </h3>
@@ -170,7 +170,7 @@ const Portfolio = () => {
                 </Link>
               </div>
             </div>
-            <div className="w-2/5 ">
+            <div className="w-full md:w-2/5">
               <img
                 className="h-full border   object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded"
                 src="https://i.ibb.co/1bcGw1z/Blood-Donation.png"
@@ -179,8 +179,8 @@ const Portfolio = () => {
             </div>
           </div>
           {/* wedding planner*/}
-          <div className="flex w-full h-72 border border-white rounded">
-            <div className="w-3/5 p-6 space-y-3">
+          <div className="flex flex-col md:flex-row  w-full md:h-72 border border-white rounded">
+            <div className="w-full md:w-3/5 p-6 space-y-3">
               <h3 className="text-xl font-semibold  group-hover:text-gray-600 dark:text-gray-200">
                 Wedding Planner
               </h3>
@@ -224,7 +224,7 @@ const Portfolio = () => {
                 </Link>
               </div>
             </div>
-            <div className="w-2/5 ">
+            <div className="w-full md:w-2/5">
               <img
                 className="h-full border   object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded"
                 src="https://i.ibb.co/zm7DVzb/Wedding-planner.png"

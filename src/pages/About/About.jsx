@@ -27,14 +27,14 @@ const About = () => {
               <TbBrandGithubFilled />
             </a>
             <a
-              href="https://www.linkedin.com/in/shorif-ahamed/"
+              href="https://www.linkedin.com/in/sorifuzzaman/"
               target="_blank"
               className="bg-sky-500 text-white p-3 rounded-full"
             >
               <FaLinkedinIn />
             </a>
             <a
-              href="https://www.linkedin.com/in/shorif-ahamed/"
+              href="https://www.linkedin.com/in/sorifuzzaman/"
               target="_blank"
               className="bg-red-500 text-white p-3  rounded-full"
             >
