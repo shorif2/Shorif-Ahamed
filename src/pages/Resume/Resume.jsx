@@ -4,10 +4,10 @@ const Resume = () => {
       <h2 className="text-5xl font-semibold text-center">Resume</h2>
       <hr className="border border-orange-500 w-24 mt-4 mx-auto text-orange-500 bg-orange-500" />
 
-      <div className="flex gap-6">
+      <div className="flex w-full gap-6">
         {/* 1st  */}
 
-        <div className="">
+        <div className="w-1/2">
           <h3 className="font-medium text-2xl pt-16 border-b-2 pb-4">
             Education
           </h3>
@@ -21,8 +21,8 @@ const Resume = () => {
               - Master's in Political Science.
             </h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam,
-              nihil.
+              Graduated in 2023 with a solid knowledge in political systems,
+              governance, and societal dynamics.
             </p>
           </div>
           <div className="pt-12">
@@ -35,13 +35,13 @@ const Resume = () => {
               - Bachelor's Degree in Political Science.
             </h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam,
-              nihil.
+              Graduated in 2019 with a solid knowledge in political systems,
+              governance, and societal dynamics.
             </p>
           </div>
         </div>
         {/* 2nd */}
-        <div className="">
+        <div className="w-1/2">
           <h3 className="font-medium text-2xl pt-16 border-b-2 pb-4">
             Experience
           </h3>
@@ -54,10 +54,7 @@ const Resume = () => {
               </button>{" "}
               - Lead Generation In Upwork.
             </h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam,
-              nihil.
-            </p>
+            <p>Complete few project with positive review from client</p>
           </div>
         </div>
       </div>
