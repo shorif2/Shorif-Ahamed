@@ -1,8 +1,8 @@
 const Resume = () => {
   return (
     <div className="mx-12 my-10">
-      <h2 className="text-5xl font-semibold text-center">Resume</h2>
-      <hr className="border border-orange-500 w-24 mt-4 mx-auto text-orange-500 bg-orange-500" />
+      <h2 class="mb-4 text-4xl font-semibold text-center">Resume</h2>
+      <hr className="w-12 mx-auto border border-orange-500" />
 
       <div className="flex flex-col md:flex-row  w-full gap-6">
         {/* 1st  */}
@@ -61,7 +61,7 @@ const Resume = () => {
 
       {/* skill */}
       <div className="flex gap-6 w-full pt-16">
-        <div className="w-full shadow-xl border">
+        <div className="w-full shadow-2xl ">
           <h2 className="text-2xl font-medium">Design Skills</h2>
           <div className=" p-6 space-y-8">
             {/* main */}
@@ -116,7 +116,7 @@ const Resume = () => {
           </div>
         </div>
         {/* 2nd */}
-        <div className="w-full">
+        <div className="w-full shadow-2xl">
           <h2 className="text-2xl font-medium">Coding Skills</h2>
           <div className=" shadow-xl p-6 space-y-8">
             {/* main */}
