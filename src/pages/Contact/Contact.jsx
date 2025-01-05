@@ -48,7 +48,7 @@ const Contact = () => {
         {/*  */}
         <div className="mt-12 w-full md:w-4/6 mx-auto">
           {/* Card */}
-          <div className="flex flex-col border rounded p-4 sm:p-6 lg:p-8 dark:border-gray-700">
+          <div className="flex flex-col border rounded p-4 sm:p-6 lg:p-8 border-white">
             <form className="">
               <div className="grid gap-4  lg:gap-6">
                 {/* Grid */}
@@ -139,7 +139,7 @@ const Contact = () => {
               <div className="mt-6 grid">
                 <button
                   type="submit"
-                  className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                  className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-orange-500 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                 >
                   Send inquiry
                 </button>
