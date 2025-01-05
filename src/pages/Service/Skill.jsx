@@ -7,7 +7,7 @@ import { SiExpress, SiTailwindcss } from "react-icons/si";
 
 const Skill = () => {
   return (
-    <div className="p-10">
+    <div className="p-12">
       <h2 class="mb-4 text-4xl font-semibold text-center">Skills</h2>
       <hr className="w-12 mx-auto border border-red-300" />
       <p class="mb-5 text-center md:w-96 mx-auto pt-4 pb-8">

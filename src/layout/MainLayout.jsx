@@ -23,6 +23,7 @@ const MainLayout = () => {
       }}
       className="h-screen"
     >
+      {/* animation Cursor */}
       <div className="App">
         <AnimatedCursor
           innerSize={8}
@@ -43,7 +44,9 @@ const MainLayout = () => {
 
       <div className="relative z-40 max-w-screen-xl  mx-auto h-full">
         <div className="flex w-full  md:pt-6 lg:pt-12  md:pb-6 lg:pb-12 xl:pb-20 justify-center h-full lg:px-6 xl:px-0">
+          {/* sidebar */}
           <div className="hidden lg:block w-2/12 ">
+            {/* logo */}
             <div className="pb-6">
               <img
                 className="w-40"
@@ -51,7 +54,8 @@ const MainLayout = () => {
                 alt=""
               />
             </div>
-            <div className="flex pr-14 lg:pr-6 xl:pr-14 flex-col   space-y-1.5 ">
+            {/* lg menu */}
+            <div className="flex pr-12 lg:pr-6 xl:pr-12 flex-col   space-y-2 ">
               <NavLink
                 to="/"
                 className={({ isActive }) =>
@@ -110,12 +114,14 @@ const MainLayout = () => {
                 Contact
               </NavLink>
             </div>
+            {/* copywrite */}
             <p className=" text-white pt-12">
               © 2023 Shorif
               <br />
               All Rights Reserved.
             </p>
           </div>
+          {/* main content */}
           <div className="bg-black/10 backdrop-blur-lg text-white rounded-md w-full md:w-11/12 lg:w-10/12 overflow-auto">
             {/* mobile menu */}
             <div className="block lg:hidden w-full">
@@ -169,7 +175,7 @@ const MainLayout = () => {
           </div>
         </div>
       </div>
-
+      {/* showfall */}
       <div>
         <Snowfall
           style={{

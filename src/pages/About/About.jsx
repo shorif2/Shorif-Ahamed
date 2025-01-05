@@ -7,7 +7,7 @@ import { TfiInstagram } from "react-icons/tfi";
 
 const About = () => {
   return (
-    <div className=" px-6 md:px-16 h-full">
+    <div className="px-6 md:px-12 h-full">
       {/* img div */}
       <div className="flex flex-col md:flex-row gap-6 pt-6 md:pt-16 pb-28">
         <div className="flex flex-col justify-center items-center">
