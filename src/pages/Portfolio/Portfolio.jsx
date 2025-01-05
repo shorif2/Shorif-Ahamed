@@ -13,19 +13,19 @@ const Portfolio = () => {
         </div>
         <div className="space-y-6">
           {/* Gift haven */}
-          <div className="flex flex-col md:flex-row w-full md:h-72 border border-white rounded">
+          <div className="bg-black/20  backdrop-blur-sm flex flex-col md:flex-row w-full md:h-72 border border-white rounded">
             <div className="w-full md:w-3/5 p-6 space-y-3">
               <h3 className="text-xl font-semibold  group-hover:text-gray-600 dark:text-gray-200">
                 Gift Haven
               </h3>
-              <p className="mt-3 ">
+              <p className=" mt-3 ">
                 This is a small e-commerce application developed using the MERN
                 (MongoDB, Express.js, React.js, Node.js) stack. The project
                 implements Firebase Authentication, JWT-based authorization, and
                 user role management while maintaining a responsive and
                 user-friendly interface.
               </p>
-              <p>
+              <p className="">
                 Html 5, Css 3, Tailwind.css, Javascript, Firebase, React.js,
                 Node.js, Express.js, Mongodb
               </p>
@@ -69,7 +69,7 @@ const Portfolio = () => {
             </div>
           </div>
           {/* ServiSwap */}
-          <div className="flex flex-col md:flex-row  w-full md:h-72 border border-white rounded">
+          <div className="bg-black/20 backdrop-blur-sm flex flex-col md:flex-row  w-full md:h-72 border border-white rounded">
             <div className="w-full md:w-3/5 p-6 space-y-3">
               <h3 className="text-xl font-semibold  group-hover:text-gray-600 dark:text-gray-200">
                 ServiSwap
@@ -123,7 +123,7 @@ const Portfolio = () => {
             </div>
           </div>
           {/* blood donation */}
-          <div className="flex flex-col md:flex-row w-full md:h-72 border border-white rounded">
+          <div className="bg-black/20 backdrop-blur-sm flex flex-col md:flex-row w-full md:h-72 border border-white rounded">
             <div className="w-full md:w-3/5 p-6 space-y-3">
               <h3 className="text-xl font-semibold  group-hover:text-gray-600 dark:text-gray-200">
                 One Blood
@@ -178,7 +178,7 @@ const Portfolio = () => {
             </div>
           </div>
           {/* wedding planner*/}
-          <div className="flex flex-col md:flex-row  w-full md:h-72 border border-white rounded">
+          <div className="bg-black/20 backdrop-blur-sm flex flex-col md:flex-row  w-full md:h-72 border border-white rounded">
             <div className="w-full md:w-3/5 p-6 space-y-3">
               <h3 className="text-xl font-semibold  group-hover:text-gray-600 dark:text-gray-200">
                 Wedding Planner

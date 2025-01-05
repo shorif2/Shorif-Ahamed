@@ -13,9 +13,9 @@ import Snowfall from "react-snowfall";
 
 const MainLayout = () => {
   const activeClass =
-    "bg-orange-500 text-white font-sans text-center py-2.5 rounded-md flex px-4 items-center gap-2";
+    "bg-black/10 backdrop-blur-lg bg-orange-500 text-white font-sans text-center py-2.5 rounded-md flex px-4 items-center gap-2";
   const defaultClass =
-    "hover:bg-orange-500 hover:text-white font-sans bg-white/10 backdrop-blur-md text-white text-center py-2.5 rounded-md flex px-4 items-center gap-2";
+    "bg-black/10 backdrop-blur-lg hover:bg-orange-500 hover:text-white font-sans  text-white text-center py-2.5 rounded-md flex px-4 items-center gap-2";
   return (
     <div
       style={{
@@ -45,7 +45,7 @@ const MainLayout = () => {
       <div className="relative z-40 max-w-screen-xl  mx-auto h-full">
         <div className="flex w-full  md:pt-6 lg:pt-12  md:pb-6 lg:pb-12 xl:pb-20 justify-center h-full lg:px-6 xl:px-0">
           {/* sidebar */}
-          <div className="hidden lg:block w-2/12 ">
+          <div className="hidden lg:block  w-2/12 ">
             {/* logo */}
             <div className="pb-6">
               <img
