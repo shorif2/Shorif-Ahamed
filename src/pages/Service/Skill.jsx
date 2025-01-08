@@ -14,6 +14,7 @@ const Skill = () => {
         Orci varius natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus.
       </p>
+      {/* Skills */}
       <div>
         <div className="grid grid-cols-2  md:grid-cols-4 gap-6 justify-center items-center">
           <div className="border text-7xl flex justify-center items-center p-6 hover:shadow-xl hover:bg-orange-500 ">
