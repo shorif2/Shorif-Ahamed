@@ -13,9 +13,9 @@ const About = () => {
         <div className="flex flex-col justify-center items-center">
           <div className="border hover:bg-orange-500  rounded-full  shadow w-[245px] h-[245px]">
             <img
-              className="rounded-full p-4 w-[245px] h-[245px]"
+              className="rounded-full p-4"
               // src="https://i.ibb.co/0hq6nY4/shorif-banner.png"
-              src="/shorif-logo.png"
+              src="/shorif-id.jpg"
               alt=""
             />
           </div>
