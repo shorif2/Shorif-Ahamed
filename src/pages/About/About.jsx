@@ -15,7 +15,7 @@ const About = () => {
             <img
               className="rounded-full p-4"
               // src="https://i.ibb.co/0hq6nY4/shorif-banner.png"
-              src="/shorif-id.jpg"
+              src="/shorif-img.jpg"
               alt=""
             />
           </div>
@@ -70,7 +70,7 @@ const About = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
-        <div className="rounded-lg shadow-sm hover:shadow-orange-500  border p-3">
+        <div className="rounded-lg shadow-sm hover:shadow-orange-500   border-[.5px] p-3">
           <h2 className="">Name:</h2>
           <h2 className="font-medium">Shorif Ahamed</h2>
         </div>
