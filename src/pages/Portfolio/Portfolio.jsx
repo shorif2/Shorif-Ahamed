@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Portfolio = () => {
   return (
     <div>
-      <div className="max-w-[85rem] h-screen  px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div className="max-w-[85rem] h-screen  px-4 py-10 sm:px-6 lg:px-8 lg:py-10 mx-auto">
         <div className="max-w-2xl mx-auto text-white text-center mb-10 lg:mb-14">
           <h2 class="mb-4 text-4xl font-semibold text-center">Project</h2>
           <hr className="w-12 mx-auto border border-red-300" />
@@ -13,7 +13,7 @@ const Portfolio = () => {
         </div>
         <div className="space-y-6 pb-10">
           {/* Gift haven */}
-          <div className="bg-black/20  backdrop-blur-sm flex flex-col md:flex-row w-full md:h-72 border border-white rounded">
+          <div className="bg-black/20  backdrop-blur-sm flex flex-col md:flex-row w-full md:h-72 border-[.5px] border-gray-400 rounded">
             <div className="w-full md:w-3/5 p-6 space-y-3">
               <h3 className="text-xl font-semibold  group-hover:text-gray-600 dark:text-gray-200">
                 Gift Haven
@@ -69,7 +69,7 @@ const Portfolio = () => {
             </div>
           </div>
           {/* ServiSwap */}
-          <div className="bg-black/20 backdrop-blur-sm flex flex-col md:flex-row  w-full md:h-72 border border-white rounded">
+          <div className="bg-black/20 backdrop-blur-sm flex flex-col md:flex-row  w-full md:h-72 border-[.5px] border-gray-400 rounded">
             <div className="w-full md:w-3/5 p-6 space-y-3">
               <h3 className="text-xl font-semibold  group-hover:text-gray-600 dark:text-gray-200">
                 ServiSwap
@@ -123,7 +123,7 @@ const Portfolio = () => {
             </div>
           </div>
           {/* blood donation */}
-          <div className="bg-black/20 backdrop-blur-sm flex flex-col md:flex-row w-full md:h-72 border border-white rounded">
+          <div className="bg-black/20 backdrop-blur-sm flex flex-col md:flex-row w-full md:h-72 border-[.5px] border-gray-400 rounded">
             <div className="w-full md:w-3/5 p-6 space-y-3">
               <h3 className="text-xl font-semibold  group-hover:text-gray-600 dark:text-gray-200">
                 One Blood
