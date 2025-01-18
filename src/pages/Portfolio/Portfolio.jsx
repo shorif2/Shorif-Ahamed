@@ -11,7 +11,7 @@ const Portfolio = () => {
             Here's some noticeable web project what I developed.
           </p>
         </div>
-        <div className="space-y-6">
+        <div className="space-y-6 pb-10">
           {/* Gift haven */}
           <div className="bg-black/20  backdrop-blur-sm flex flex-col md:flex-row w-full md:h-72 border border-white rounded">
             <div className="w-full md:w-3/5 p-6 space-y-3">
@@ -178,7 +178,7 @@ const Portfolio = () => {
             </div>
           </div>
           {/* wedding planner*/}
-          <div className="bg-black/20 backdrop-blur-sm flex flex-col md:flex-row  w-full md:h-72 border border-white rounded">
+          <div className="bg-black/20 backdrop-blur-sm flex flex-col md:flex-row   w-full md:h-72 border-[.5px] border-gray-400 rounded">
             <div className="w-full md:w-3/5 p-6 space-y-3">
               <h3 className="text-xl font-semibold  group-hover:text-gray-600 dark:text-gray-200">
                 Wedding Planner
