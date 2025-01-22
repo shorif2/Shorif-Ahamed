@@ -88,7 +88,7 @@ const About = () => {
         </div>
         <div className="rounded-lg  border p-3">
           <h2 className="">Address:</h2>
-          <h2 className="font-medium">Rajshahi, BD</h2>
+          <h2 className="font-medium">Rajshahi,BD</h2>
         </div>
         <div className="rounded-lg  border p-3">
           <h2 className="">Nationality:</h2>
