@@ -20,6 +20,7 @@ const MainLayout = () => {
     <div
       style={{
         backgroundImage: 'url("https://i.ibb.co/wYHL03d/peakpx.jpg")',
+        // backgroundImage: 'url("/peakpx.jpg")',
       }}
       className="h-screen"
     >

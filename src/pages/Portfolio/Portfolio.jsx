@@ -31,14 +31,14 @@ const Portfolio = () => {
               </p>
               <div className="flex gap-4 justify-between items-center">
                 <Link
-                  to="https://github.com/shorif2/service-sharing-zone-client"
+                  to="https://github.com/shorif2/gift-haven-client"
                   target="_blank"
                   className="mt-5 inline-flex items-center gap-x-1 text-blue-600 decoration-2 group-hover:underline font-medium"
                 >
                   Github
                 </Link>
                 <Link
-                  to="https://service-sharing-client.web.app/"
+                  to="https://gift-haven-client-two.vercel.app/"
                   target="_blank"
                   className="mt-5 inline-flex items-center gap-x-1 text-blue-600 decoration-2 group-hover:underline font-medium"
                 >
