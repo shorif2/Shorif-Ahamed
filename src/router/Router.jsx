@@ -6,6 +6,7 @@ import Contact from "../pages/Contact/Contact";
 import Portfolio from "../pages/Portfolio/Portfolio";
 import Resume from "../pages/Resume/Resume";
 import Skill from "../pages/Service/Skill";
+import Hero from "../pages/Hero";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "/blog",
         element: <Blog></Blog>,
+      },
+      {
+        path: "/hero",
+        element: <Hero />,
       },
     ],
   },
